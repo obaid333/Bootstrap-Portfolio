@@ -40,11 +40,42 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Enter email to receive CV</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <!--Form requesting email start-->
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Example select</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect2">Example multiple select</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                        <!--Form requesting email end-->
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -53,6 +84,7 @@
                     </div>
                   </div>
                 </div>
+                <!--Modal end-->
               </li>        
             </ul>            
           </div>
@@ -63,12 +95,13 @@
       <!--hero begins-->
       <div class="row hero">
         <div class="jumbotron jumbotron-fluid">
-          <div class="container bg-primary text-light" style="--bs-bg-opacity: .5;">
+          <div class="container col-7 bg-primary text-light" style="--bs-bg-opacity: .9;">
             <h1 class="display-4">Fluid jumbotron</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
           </div>
         </div>
       </div>
+      <!--hero ends-->
 
       <section class="myWork">
       <div class="container-fluid">
