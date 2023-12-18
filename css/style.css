@@ -1,0 +1,16 @@
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    background-image: url(../Images/02-hero-bg.jpg);
+    background-size: cover;
+}
+
+.jumbotron .container {
+    /*opacity: 0.5;*/
+    text-align: end;
+    width: 500px;
+}
