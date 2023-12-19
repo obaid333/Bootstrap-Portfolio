@@ -14,3 +14,7 @@
 .modal-backdrop {
     z-index: auto;
 }
+
+#left-box {
+    height: auto;
+}
