@@ -1,4 +1,10 @@
-
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    .hero {
+    display: flex;
+}
 
 .jumbotron {
     background-image: url(../Images/02-hero-bg.jpg);
@@ -6,8 +12,12 @@
 }
 
 .jumbotron .container {
-    text-align: end;
-    width: 500px;
+    width: 500px;       
+}
+
+.jumbotron h1 {
+    justify-content: end;
+    align-items: end;
 }
 
 /*modal was grayed out as z-index was more then z-index for nav bar*/
@@ -15,6 +25,9 @@
     z-index: auto;
 }
 
-#left-box {
-    height: auto;
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
 }
