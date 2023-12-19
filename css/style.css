@@ -9,3 +9,8 @@
     text-align: end;
     width: 500px;
 }
+
+/*modal was grayed out as z-index was more then z-index for nav bar*/
+.modal-backdrop {
+    z-index: auto;
+}
